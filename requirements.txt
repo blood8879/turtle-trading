@@ -1,0 +1,38 @@
+# Bitcoin Futures Turtle Trading Bot Requirements
+
+# Core Libraries
+python-binance>=1.0.29
+pandas>=2.3.0
+numpy>=2.3.0
+asyncio-mqtt>=0.16.1
+
+# UI/Frontend Libraries
+rich>=13.7.0
+textual>=0.45.1
+click>=8.1.7
+
+# Data Analysis & Visualization
+matplotlib>=3.7.2
+seaborn>=0.12.2
+plotly>=5.17.0
+
+# Configuration & Environment
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Testing
+pytest>=7.4.2
+pytest-asyncio>=0.21.1
+pytest-mock>=3.11.1
+
+# Utilities
+requests>=2.31.0
+websocket-client>=1.6.4
+schedule>=1.2.0
+sqlalchemy>=2.0.23
+aiofiles>=23.2.1
+
+# Development Tools
+black>=23.9.1
+flake8>=6.1.0
+mypy>=1.6.1
